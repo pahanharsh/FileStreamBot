@@ -56,7 +56,7 @@ async def start(b, m):
             text=f"🙋🏻‍♀ Hey **[{m.from_user.first_name}](tg://user?id={m.from_user.id})** Bruh!!\n\n**I am Instant😋 Telegram File to Link Generator Bot.**\n\n**Send me any file & see the magic!** \n\n**🔞 Pornogrphy Strictly Not Allowed** \n\nFor Help Just send /help to me 🙂",
             reply_markup=InlineKeyboardMarkup(
                 [
-                    [InlineKeyboardButton('😎 Developer', url='https://t.me/Avishkarpatil'), InlineKeyboardButton('😴 Profile', url='https://avipatilweb.me')]
+                    [InlineKeyboardButton('😎 Developer', url='https://t.me/Humangasor'), InlineKeyboardButton('msin gruop', url='https://t.me/SL_MEDIA_TECH_GRUOP')]
           
                 ]
             ),
@@ -69,7 +69,7 @@ async def start(b, m):
                 if user.status == "kicked":
                     await b.send_message(
                         chat_id=m.chat.id,
-                        text="Sorry Sir, You are Banned to use me. Quickly contact @Avishkarpatil",
+                        text="Sorry Sir, You are Banned to use me.",
                         parse_mode="markdown",
                         disable_web_page_preview=True
                     )
@@ -85,7 +85,7 @@ async def start(b, m):
                             ],
                             [
                                 InlineKeyboardButton("🔄 Refresh / Try Again",
-                                                     url=f"https://t.me/avifilestreambot.herokuapp.com/{usr_cmd}")
+                                                     url=f"https://t.me/File_to_link_slmediatech_bot.herokuapp.com/{usr_cmd}")
                             ]
                         ]
                     ),
@@ -95,7 +95,7 @@ async def start(b, m):
             except Exception:
                 await b.send_message(
                     chat_id=m.chat.id,
-                    text="Something went Wrong. Contact me [Avishkar Patil](https://t.me/Avishkarpatil).",
+                    text="Something went Wrong. Contact me [sl media tech](https://t.me/SL_MEDIA_TECH_GRUOP).",
                     parse_mode="markdown",
                     disable_web_page_preview=True)
                 return
